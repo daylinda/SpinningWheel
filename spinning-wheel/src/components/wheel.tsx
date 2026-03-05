@@ -1,4 +1,4 @@
-import React, {
+import {
   forwardRef,
   useImperativeHandle,
   useMemo,
@@ -123,7 +123,7 @@ export const Wheel = forwardRef<WheelHandle, Props>(function Wheel(
                 transform: `rotate(${angle}deg) translate(0, -140px) rotate(90deg)`,
               }}
             >
-              {label}
+              {/* {label} */}
             </div>
           );
         })}
